@@ -27,11 +27,11 @@ TODO
  - Add Test Cases.
  - Algorithm to determine whether to prefer lower atomic number elements (atomic num < 20) over higer ones.
  - Incorporate the exact fonts from Breaking Bad logo.
- - Add Breaking Bad theme audio to the page.
+ - Add Breaking Bad theme audio to the page. - Done
 
 
 Everyone is welcome to add stuff to it. Lets make this as interactive as we can. 
-<h3>Walter White is not dead. He is still in out mind and heart.</h3>
+<h3>Walter White is not dead. He still lives in our mind and heart.</h3>
  
  
 
