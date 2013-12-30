@@ -5,9 +5,15 @@ Angular directive for representing your name in Breaking Bad logo format.
 Refer `breakingBad.js` for the directive `ng-breaking-bad` which takes two attributes `first` and `last`
 to represent the full name in Breaking Bad logo format.
 
+[DEMO](http://dmahapatro.github.io/ng-breaking-bad/sayMyName)
+
 Usage
 =====
 `<ng-breaking-bad first="John" last="Doe"/>`
+
+or
+
+`<div ng-breaking-bad first="John" last="Doe"></div>`
 
 
 Libraries Used
