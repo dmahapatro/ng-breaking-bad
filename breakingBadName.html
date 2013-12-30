@@ -1,0 +1,25 @@
+<div>
+    <div id="breaking-bad">
+        <div id="bb-body">
+            <div class="name">
+                <div class="left">{{styledFirst.firstPart}}</div>
+                <div ng-class="{'periodic-element': styledFirst.match}" title="{{styledFirst.elemName}}">
+                    {{styledFirst.match}}<span class="atomic-num">{{styledFirst.atomicNum}}</span>
+                </div>
+                <div class="left">{{styledFirst.lastPart}}</div>
+                <div class="left" ng-if="!styledFirst.match">{{first}}</div>
+            </div>
+            <div style="clear: both"></div>
+            <div class="name" style="padding-left: 202px">
+                <div class="left">{{styledLast.firstPart}}</div>
+                <div ng-class="{'periodic-element': styledLast.match}" title="{{styledLast.elemName}}">
+                    {{styledLast.match}}<span class="atomic-num">{{styledLast.atomicNum}}</span>
+                </div>
+                <div class="left">{{styledLast.lastPart}}</div>
+                <div class="left" ng-if="!styledLast.match">{{last}}</div>
+            </div>
+        </div>
+    </div>
+    <div style="text-align: center" ng-show="styledLast.match || styledFirst.match">Hover over element for it's name</div>
+</div>
+
