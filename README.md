@@ -24,6 +24,7 @@ Libraries Used
 
 TODO
 ====
+ - Add Test Cases.
  - Algorithm to determine whether to prefer lower atomic number elements (atomic num < 20) over higer ones.
  - Incorporate the exact fonts from Breaking Bad logo.
  - Add Breaking Bad theme audio to the page.
