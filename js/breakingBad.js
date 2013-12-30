@@ -10,7 +10,7 @@ angular.module('breakingBad', [])
             },
             restrict: "AE",
             replace: true,
-            templateUrl: 'breakingBadName.html',
+            templateUrl: 'template/breakingBadName.html',
             link: function (scope, element) {
                 var periodicTable = PeriodicTableService.periodicTable;
                 scope.$watch('first', function () {

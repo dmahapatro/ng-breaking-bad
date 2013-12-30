@@ -1,6 +1,6 @@
 @font-face {
     font-family: breakingBadFont;
-    src: url(BreakingBad.otf);
+    src: url(../fonts/BreakingBad.otf);
 }
 
 .periodic-element{
