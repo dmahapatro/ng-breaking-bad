@@ -4,20 +4,18 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script src="js/breakingBad.js"></script>
-    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <!--<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">-->
     <link rel="stylesheet" type="text/css" href="css/breakingBad.css">
 </head>
 <body>
 <div ng-controller="bbCtrl">
-    <div style="padding-left: 700px">
+    <div>
         <h1>SAY MY NAME</h1>
-
         <div class="input-group" style="width: 250px; text-align: center">
             <span class="input-group-addon">First:</span>
             <input class="form-control" autofocus type="text" ng-model="bb.firstName"
                    placeholder="Enter first name..">
         </div>
-        <br>
         <div class="input-group" style="width: 250px; text-align: center">
             <span class="input-group-addon">Last:</span>
             <input class="form-control" type="text" ng-model="bb.lastName" placeholder="Enter last name..">
@@ -26,6 +24,6 @@
     <hr>
     <ng-breaking-bad first="bb.firstName" last="bb.lastName"></ng-breaking-bad>
 </div>
-<h4 style="text-align: center">Obviously Best viewed in Chrome</h4>
+<h5 style="text-align: center">Obviously Best viewed in Chrome</h5>
 </body>
 </html>
