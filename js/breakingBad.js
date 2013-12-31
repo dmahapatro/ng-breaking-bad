@@ -1,6 +1,6 @@
 angular.module('breakingBad', [])
     .controller("bbCtrl", ['$scope', 'PeriodicTableService', function ($scope) {
-        $scope.bb = {firstName: '', lastName: ''};
+        $scope.bb = {firstName: 'Breaking', lastName: 'Bad'};
     }])
     .directive('ngBreakingBad', function (PeriodicTableService) {
         return{
